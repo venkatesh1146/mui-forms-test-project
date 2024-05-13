@@ -301,8 +301,7 @@
             "name": "requirements",
             "meta": {
                 "displayName": "Requirements",
-                "type": "section",
-                "isDisabled": true
+                "type": "section"
             },
             "fields": [
                 {
@@ -588,8 +587,7 @@
             "name": "previous_policy",
             "meta": {
                 "displayName": "Previous Policy",
-                "type": "section",
-                "isDisabled": true
+                "type": "section"
             },
             "fields": [
                 {
