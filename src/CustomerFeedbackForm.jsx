@@ -10,6 +10,10 @@ export default function () {
         config={{
           variant: "outlined",
           size: "small",
+          gapY: 2,
+          tabs: {
+            disabled: ["requirements", "previous_policy"]
+          }
         }}
         schema={fourwheelerSchema}
         onSubmit={(data) => {
