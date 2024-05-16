@@ -13,7 +13,44 @@
                 "type": "section",
                 "displayName": "Vehicle Details"
             },
-            "fields": [
+            "fields": [     {
+                    "name": "phone_number",
+                    "meta": {
+                        "displayName": "Phone Number",
+                        "displayType": "phone",
+                        "displayProps": {
+                            "xs": 12,
+                            "md": 6
+                        },
+                        "value": "+91",
+                        "validation": {
+                            "required": "True",
+                            "pattern": "^\\+?[0-9]{12}$",
+                            "patternDetail": {
+                                "errorMsg": "Please enter valid Phone Number"
+                            }
+                        }
+                    }
+                },
+                {
+                    "name": "alternate_phone_number",
+                    "meta": {
+                        "displayName": "Alternate Phone Number",
+                        "displayType": "phone",
+                        "displayProps": {
+                            "xs": 12,
+                            "md": 6
+                        },
+                        "value": "",
+                        "validation": {
+                            "required": "True",
+                            "pattern": "^\\+?[0-9]{12}$",
+                            "patternDetail": {
+                                "errorMsg": "Please enter valid Phone Number"
+                            }
+                        }
+                    }
+                },
                 {
                     "name": "insurance_type",
                     "meta": {
